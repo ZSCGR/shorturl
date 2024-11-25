@@ -1,5 +1,5 @@
 <?php
-$yourHost = 'https://e8.gs/'; // 替换为您的域名
+$yourHost = 'shorturl-beta-five.vercel.app/'; // 替换为您的域名
 $seed = '这是一个种子'; // 设置种子
 $dataDir = './seed-' . md5($seed); // 种子目录
 $whiteListFile = $dataDir . '/white.list'; // 白名单文件路径
