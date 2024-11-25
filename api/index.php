@@ -1,4 +1,6 @@
 <?php
+header('Content-Type: application/json');
+
 $yourHost = 'https://e8.gs/'; // 替换为您的域名
 $seed = '这是一个种子'; // 设置种子
 $dataDir = './seed-' . md5($seed); // 种子目录
@@ -9,7 +11,7 @@ $allowedChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.
 
 // 启用或禁用白名单和黑名单功能
 $whiteListEnabled = false; // 设置为 true 启用白名单功能
-$blackListEnabled = true;  // 设置为 true 启用黑名单功能
+$blackListEnabled = false;  // 设置为 true 启用黑名单功能
 
 // 设置时区
 date_default_timezone_set('PRC');
