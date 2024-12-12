@@ -1,5 +1,5 @@
 <?php
-$yourHost = 'shorturl-beta-five.vercel.app/'; // 替换为您的域名
+$yourHost = 'https://shorturl-beta-five.vercel.app/'; // 替换为您的域名
 $seed = '12581'; // 设置种子
 $dataDir = '/tmp/seed-' . md5($seed); // 种子目录
 $whiteListFile = $dataDir . '/tmp/white.list'; // 白名单文件路径
