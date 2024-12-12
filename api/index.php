@@ -1,9 +1,9 @@
 <?php
 $yourHost = 'shorturl-beta-five.vercel.app/'; // 替换为您的域名
 $seed = '12581'; // 设置种子
-$dataDir = './seed-' . md5($seed); // 种子目录
-$whiteListFile = $dataDir . '/white.list'; // 白名单文件路径
-$blackListFile = $dataDir . '/ban.list'; // 黑名单文件路径
+$dataDir = '/tmp/seed-' . md5($seed); // 种子目录
+$whiteListFile = $dataDir . '/tmp/white.list'; // 白名单文件路径
+$blackListFile = $dataDir . '/tmp/ban.list'; // 黑名单文件路径
 $allowedExtensions = ['css', 'js', 'img', 'image', 'images', 'cache', 'admin', 'm']; // 保留的后缀
 $allowedChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._-';
 
